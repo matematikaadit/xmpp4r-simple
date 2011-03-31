@@ -467,6 +467,8 @@ module Jabber
               queue(:pending_messages) << message
             end
           end
+          # don't try to deliver more than one a second...
+          sleep 1
         }
       }
     end
