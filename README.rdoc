@@ -1,4 +1,4 @@
-Fork of original, apparently unmaintained xmpp4r-simple at xmpp4r-simple[https://github.com/blaine/xmpp4r-simple]
+Fork of original, apparently unmaintained <tt>xmpp4r-simple</tt> at xmpp4r-simple[https://github.com/blaine/xmpp4r-simple]
 
 This one has a ruby 1.9 compatibility fix, and dkowis[https://github.com/dkowis] fixing a thread race condition that causes this
 to consume 100% of the CPU all the time. Not fixing the infinite loop, but making it so it doesn't spiral
@@ -6,7 +6,7 @@ out of control.
 
 = Name
 
-Jabber::Simple - An extremely easy-to-use Jabber client library.
+<tt>Jabber::Simple</tt> - An extremely easy-to-use Jabber client library.
 
 = Synopsis
 
@@ -37,7 +37,7 @@ Jabber::Simple - An extremely easy-to-use Jabber client library.
 
 = Description
 
-Jabber::Simple is intended to make Jabber client programming dead simple. XMPP,
+<tt>Jabber::Simple</tt> is intended to make Jabber client programming dead simple. XMPP,
 the Jabber protocol, is extremely powerful but also carries a steep learning
 curve. This library exposes only the most common tasks, and does so in a way
 that is familiar to users of traditional instant messenger clients.
@@ -48,20 +48,22 @@ that is familiar to users of traditional instant messenger clients.
 
 = Copyright
 
-Jabber::Simple - An extremely easy-to-use Jabber client library.
+<tt>Jabber::Simple</tt> - An extremely easy-to-use Jabber client library.
+
 Copyright 2010 David Kowis <dkowis@gmail.com>
+
 Copyright 2006-2008 Blaine Cook <romeda@gmail.com>.
 
-Jabber::Simple is free software; you can redistribute it and/or modify
+<tt>Jabber::Simple</tt> is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
 (at your option) any later version.
 
-Jabber::Simple is distributed in the hope that it will be useful,
+<tt>Jabber::Simple</tt> is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Jabber::Simple; if not, write to the Free Software
+along with <tt>Jabber::Simple</tt>; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
