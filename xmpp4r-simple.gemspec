@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
     and hides the relatively high complexity of maintaining a simple instant
     messenger bot in Ruby.
   EOF
-  s.files = %w( test/test_xmpp4r_simple.rb lib/xmpp4r-simple.rb README COPYING CHANGELOG )
+  s.files = %w( test/test_xmpp4r_simple.rb lib/xmpp4r-simple.rb README.rdoc COPYING CHANGELOG )
   s.require_path = "lib"
   s.test_files = Dir.glob("test/test_*.rb")
   s.has_rdoc = true
