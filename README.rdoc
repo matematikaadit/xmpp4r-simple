@@ -1,5 +1,4 @@
-Fork of original, apparently unmaintained xmpp4r-simple at
-  xmpp4r-simple[https://github.com/blaine/xmpp4r-simple]
+Fork of original, apparently unmaintained xmpp4r-simple at xmpp4r-simple[https://github.com/blaine/xmpp4r-simple]
 
 This one has a ruby 1.9 compatibility fix, and dkowis[https://github.com/dkowis] fixing a thread race condition that causes this
 to consume 100% of the CPU all the time. Not fixing the infinite loop, but making it so it doesn't spiral
